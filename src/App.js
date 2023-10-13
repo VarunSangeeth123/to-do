@@ -59,6 +59,7 @@ function App() {
             &nbsp;{" "}
             <input
               type="checkbox"
+              checked={el.check}
               onChange={(e) => check(e.target.checked, i)}
             ></input>{" "}
             &nbsp;{" "}
